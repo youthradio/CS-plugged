@@ -19,47 +19,59 @@
     <div class="row mt-4">
       <div class="col-md-12 text-center">
         <h1>
-          Lists
+          Objects
       </h1>
       </div>
     </div>
-    <div class="row h-100">
-      <div class="col-md-6 p-1">
-        <div class="d-flex flex-nowrap justify-content-center h-100">
-          <div class="align-self-center">
-            <div id="first">
-              <h3>Add Elements to your list using the input text</h3>
+    <div class="row mt-4">
+      <div class="col-md-12 text-center">
+        <h3>
+          Create a person object / dictionary with attributes for
+      </h3>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-5">
+        <div class="row">
+          <div class="col-2 offset-5 text-center boxed">
+            <div id="person-head">
+              Person Head
             </div>
-            <div class="input-group mb-3">
-              <input id="input-field" type="text" class="form-control" placeholder="Element to be pushed">
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button" onclick="processButton()">Push</button>
-                <button class="btn btn-outline-secondary" type="button" onclick="processPop()">Pop</button>
-
-              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 offset-4 text-center boxed">
+            <div>
+              Person Body
             </div>
-            <div id="list-print">
-
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2 offset-5 text-center boxed">
+            <div>
+              Person Legs
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 p-1">
-        <div class="d-flex flex-nowrap justify-content-center h-100">
-          <div class="align-self-top">
-            <div id="box">
-              <div class="row boxes">
-                <div id="output-1" class="col-6">output 1</div>
-                <div id="output-2" class="col-6">output 2</div>
-              </div>
-              <div class="row boxes">
-                <div id="output-3" class="col-6">output 3</div>
-                <div id="output-4" class="col-6">output 4</div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+      <div class="col-5 offset-1">
+        <h2>Person Info</h2>
+        <ul>
+          <li>
+            Name: <span id="info-name">My real name</span>
+          </li>
+          <li>
+            Fake Address: <span>My fake Address</span>
+          </li>
+          <li>
+            Fake Telephone: <span>My fake Address</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-12 text-center">
+        <button type="button" class="btn btn-primary btn-lg" onclick="start()">DO IT!</button>
       </div>
     </div>
 
@@ -67,7 +79,7 @@
 
   <footer class="footer">
     <div class="container">
-      Jump to <a href="objects.html">objects assignment</a>
+      Jump to <a href="lists.html">lists assignment</a>
     </div>
   </footer>
 
@@ -77,7 +89,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  <script src="script-lists.js"></script>
+  <script src="script-objects.js"></script>
 
 </body>
 
